@@ -1,12 +1,11 @@
-$mistyBlue: #2F5061;
-$coral: #E57F84;
-$ivory: #F4EAE6;
-$tealGreen: #4297A0;
+@import "~bootstrap/scss/bootstrap";
+@import "custom";
 
-:root{
-  background-color: $ivory;
-}
+$wildBlueYonder: #A7ADC6;
+$irresistable: #AA4465;
+$pansyPurple: #861657;
+
 .App {
   text-align: center;
-  background-color: $ivory;
+  background-color: white;
 }

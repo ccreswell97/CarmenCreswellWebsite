@@ -3,7 +3,6 @@ export function Hobbies() {
         <div>
             <h1>Hobbies</h1>
             <p>Knitting and Crochet</p>
-            
         </div>
     );
 }

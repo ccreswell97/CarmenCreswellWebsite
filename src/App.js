@@ -6,7 +6,8 @@ import {Education} from './pages/Education';
 import {Projects} from './pages/Projects';
 import {WorkExp} from './pages/WorkExp';
 import {Hobbies} from './pages/Hobbies';
-import {Navbar, Nav, Brand} from 'react-bootstrap';
+import {Navbar, Nav} from 'react-bootstrap';
+import {AppFooter} from './components/AppFooter';
 
 function App() {
   return (
@@ -45,6 +46,7 @@ function App() {
           </Switch>
         </BrowserRouter>
       </body>
+      <AppFooter/>
     </div>
   );
 }

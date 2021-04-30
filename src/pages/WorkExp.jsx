@@ -20,7 +20,7 @@ export function WorkExp() {
                         </Card.Text> 
                     </Card.Body>
                     <Card.Footer>
-                        Techologies used: React, TypeScript, JavaScript, CSS, Java, Arquillian, JUnit, Lucene
+                        Techologies used: React, TypeScript, JavaScript, CSS, Java, Arquillian, JUnit, Lucene, Docker, Webpack, Maven, Lombok
                     </Card.Footer>
                 </Card>
 
@@ -40,7 +40,7 @@ export function WorkExp() {
                                 </Card.Text>
                             </Card.Body>
                             <Card.Footer>
-                                Technologies used: Groovy, Java, React, TypeScript, JavaScript, CSS, Arquillian, JUnit
+                                Technologies used: Groovy, Java, React, TypeScript, JavaScript, CSS, Arquillian, JUnit, Gradle
                             </Card.Footer>
                         </Card>
 
@@ -58,7 +58,7 @@ export function WorkExp() {
                             </Card.Text>
                         </Card.Body>
                         <Card.Footer>
-                            Technologies used: Groovy, Java, React, Jira Service Desk
+                            Technologies used: Groovy, Java, React, Gradle, Jira Service Desk
                         </Card.Footer>
                     </Card>
                 </CardDeck>

@@ -11,6 +11,9 @@ export function AppFooter() {
                                     <a target="_blank" href="https://www.linkedin.com/in/carmen-creswell-074ba816b/">LinkedIn</a>
                                 </li>
                                 <li>
+                                    <a target="_blank" href="https://github.com/ccreswell97">Github</a>
+                                </li>
+                                <li>
                                     carmencreswell@gmail.com
                                 </li>
                             </ul>

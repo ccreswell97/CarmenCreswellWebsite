@@ -8,10 +8,10 @@ export function AppFooter() {
                             <h5>Contact Info</h5>
                             <ul className="list-unstyled">
                                 <li>
-                                    <a target="_blank" href="https://www.linkedin.com/in/carmen-creswell-074ba816b/">LinkedIn</a>
+                                    <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/carmen-creswell-074ba816b/">LinkedIn</a>
                                 </li>
                                 <li>
-                                    <a target="_blank" href="https://github.com/ccreswell97">Github</a>
+                                    <a target="_blank" rel="noreferrer" href="https://github.com/ccreswell97">Github</a>
                                 </li>
                                 <li>
                                     carmencreswell@gmail.com

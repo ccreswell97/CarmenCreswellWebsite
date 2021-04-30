@@ -20,9 +20,9 @@ export function Education() {
                                     <li>Graduated Summa Cum Laude</li>
                                 </ul>
                             </Card.Text>   
-                            <Card.Link target="_blank" href="https://blogs.missouristate.edu/cnas-newswatch/2018/07/05/working-for-women-in-stem/" class="card-link">Article about Womxn of Distinction Award</Card.Link>
-                            <Card.Link target="_blank" href="https://blogs.missouristate.edu/cnas-newswatch/2018/07/07/springfield-expedia-director-speaks-on-campus/" class="card-link">Article about WIT Club</Card.Link>
-                            <Card.Link target="_blank" href="https://blogs.missouristate.edu/computerscience/2017/12/18/women-in-computing-conference/" className="card-link">Article about my friends and I before we started WIT</Card.Link>
+                            <Card.Link target="_blank" rel="noreferrer" href="https://blogs.missouristate.edu/cnas-newswatch/2018/07/05/working-for-women-in-stem/" class="card-link">Article about Womxn of Distinction Award</Card.Link>
+                            <Card.Link target="_blank" rel="noreferrer" href="https://blogs.missouristate.edu/cnas-newswatch/2018/07/07/springfield-expedia-director-speaks-on-campus/" class="card-link">Article about WIT Club</Card.Link>
+                            <Card.Link target="_blank" rel="noreferrer" href="https://blogs.missouristate.edu/computerscience/2017/12/18/women-in-computing-conference/" className="card-link">Article about my friends and I before we started WIT</Card.Link>
                         </Card.Body>
                     </Card>
                 </div>
@@ -40,7 +40,7 @@ export function Education() {
                                     <li>Graduated Summa Cum Laude</li>
                                 </ul>
                             </Card.Text>
-                            <Card.Link target="_blank" href="https://www.fourstateshomepage.com/news/brads-beat-high-school-student-graduates-with-college-degree/?fbclid=IwAR0oCnXSp2JRVrIlkjG2-PP2AKDEEcieiepAj_uTdUhIjU1rbOKpRik2i4E" className="card-link">Article on me graduating with my Associate's while in high school</Card.Link>
+                            <Card.Link target="_blank" rel="noreferrer" href="https://www.fourstateshomepage.com/news/brads-beat-high-school-student-graduates-with-college-degree/?fbclid=IwAR0oCnXSp2JRVrIlkjG2-PP2AKDEEcieiepAj_uTdUhIjU1rbOKpRik2i4E" className="card-link">Article on me graduating with my Associate's while in high school</Card.Link>
                         </Card.Body>
                     </Card>
                 </div>

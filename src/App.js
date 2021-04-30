@@ -13,7 +13,7 @@ function App() {
   return (
     <div className="App container pt-5">
       <Navbar bg="primary" expand="md">
-      <Navbar.Brand href="/home">Carmen Creswell</Navbar.Brand>
+        <Navbar.Brand href="/home">Carmen Creswell</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mr-auto">

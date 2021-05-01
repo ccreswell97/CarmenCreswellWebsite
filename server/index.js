@@ -7,6 +7,7 @@ const express = require('express');
 const app = express();
 const port = 3001;
 const axios = require('axios');
+const { response } = require('express');
 
 const token = Buffer.from(`${process.env.API_USERNAME}:${process.env.API_PW}`, 'utf8').toString('base64')
 

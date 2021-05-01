@@ -8,7 +8,7 @@ export function Education() {
                 <div className="pt-4">
                     <Card className="bg-white shadow">
                         <Card.Body className="text-center">
-                            <h4 className="text-black">Bachelor's of Science, Computer Science</h4>
+                            <h4 className="text-black">Bachelor of Science, Computer Science</h4>
                             <h6 className="text-black">Missouri State University</h6>
                             <Card.Text> 
                                 <ul className="text-black text-left pt-2">

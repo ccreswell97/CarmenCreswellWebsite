@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import {Container} from 'react-bootstrap';
+import {Container, CardColumns} from 'react-bootstrap';
 import {useEffect} from 'react';
 import Axios from 'axios';
 import {HobbyCard} from '../components/HobbyCard';
@@ -35,7 +35,9 @@ export function Hobbies() {
             <Container className="pl-3">
                 <h1>Hobbies</h1>
                 <p>My favorite hobbies are fibercraft. That includes knitting, crocheting, cross stitch, embroidery, and anything else I can find. Here are my knitting and crochet projects (pulled in through the Ravelry API).</p>
-                <div>{projectElements}</div>
+                <CardColumns>
+                {projectElements}
+                </CardColumns>
             </Container>
         </Container>
     );

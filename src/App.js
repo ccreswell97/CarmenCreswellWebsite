@@ -3,16 +3,15 @@ import './stylesheets/App.scss';
 import {AppFooter} from './components/AppFooter';
 import {AppNav} from './components/AppNav';
 import {AppRouter} from './components/AppRouter';
+import {Container} from 'react-bootstrap';
 
 function App() {
   return (
-    <div className="App container pt-5">
+    <Container className="pt-5">
       <AppNav/>
-      <body>
-        <AppRouter/>
-      </body>
+      <AppRouter/>
       <AppFooter/>
-    </div>
+    </Container>
   );
 }
 

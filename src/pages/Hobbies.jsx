@@ -1,12 +1,11 @@
 import { useState } from 'react';
-import {Container, Card, CardDeck} from 'react-bootstrap';
+import {Container} from 'react-bootstrap';
 import {useEffect} from 'react';
 import Axios from 'axios';
 import {HobbyCard} from '../components/HobbyCard';
 
 export function Hobbies() {
-    const [projects, setProjects] = useState(null);
-    //const [cards, setCards] = useState(null);
+    const [projects, setProjects] = useState("");
 
     useEffect(() => {
         Axios({
@@ -21,12 +20,23 @@ export function Hobbies() {
             });
     },[]);
 
+    let projectElements = <p>Loading...</p>;
+
+    if (projects !== "") {
+        for (let i = 0; i<= projects.length; i++) {
+            projectElements = projects.map((item) => 
+                <HobbyCard key={item.permalink} project={item}/>
+            )
+        }
+    } 
+
     console.log("projects", projects);
     return (
         <Container className="pt-4 pl-0">
             <Container className="pl-3">
                 <h1>Hobbies</h1>
-                <p>My favorite hobbies are fibercraft. That includes knitting, crocheting, cross stitch, embroidery, etc. Here are my knitting and crochet projects (pulled in through the Ravelry API).</p>
+                <p>My favorite hobbies are fibercraft. That includes knitting, crocheting, cross stitch, embroidery, and anything else I can find. Here are my knitting and crochet projects (pulled in through the Ravelry API).</p>
+                <div>{projectElements}</div>
             </Container>
         </Container>
     );

@@ -8,6 +8,8 @@ It uses the following languages, frameworks, and technologies:
 * CSS & SCSS
 * Node
 * AWS S3 Bucket
+* Axios
+* Express
 
 ## Available Scripts
 

@@ -15,7 +15,6 @@ export function Hobbies() {
                 "Content-Type": "application/json"
               }
             }).then(res => {
-              console.log("data" , res.data.projects);
               setProjects(res.data.projects);
             });
     },[]);

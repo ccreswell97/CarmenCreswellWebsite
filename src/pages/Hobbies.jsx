@@ -15,13 +15,15 @@ export function Hobbies() {
                 "Content-Type": "application/json"
               }
             }).then(res => {
-              setProjects(res.data.projects);
+                console.log("data ", res.data.projects);
+                setProjects(res.data.projects);
             });
     },[]);
 
     let projectElements = <p>Loading...</p>;
 
-    if (projects !== "") {
+    if (projects !== undefined) {
+        console.log("projects: ", projects);
         for (let i = 0; i<= projects.length; i++) {
             projectElements = projects.map((item) => 
                 <HobbyCard key={item.permalink} project={item}/>

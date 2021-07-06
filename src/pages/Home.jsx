@@ -26,9 +26,11 @@ export function Home() {
                                         <li>TypeScript</li>
                                         <li>Webpack</li>    
                                         <li>Yarn</li>
-                                        <li>npm</li>
-                                        <li>HTML/CSS/SCSS</li>
+                                        <li>Npm</li>
+                                        <li>HTML/CSS/SCSS/SASS</li>
                                         <li>Groovy</li>
+                                        <li>Heroku</li>
+                                        <li>Bootstrap</li>
                                     </ul>
                                 </Col>
                                 <Col sm={6}>
@@ -42,8 +44,8 @@ export function Home() {
                                         <li>Selenium</li>
                                         <li>SQL, MySQL</li>
                                         <li>Docker</li>
-                                        <li>Bootstrap</li>
-
+                                        <li>GraphCMS</li>
+                                        <li>GraphQL</li>
                                     </ul>
                                 </Col>
                             </Row>

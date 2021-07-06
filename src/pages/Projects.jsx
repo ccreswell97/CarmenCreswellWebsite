@@ -18,7 +18,7 @@ export function Projects() {
                             </Card.Link>
                         </Card.Body>
                         <Card.Footer>
-                            Techologies used: React, JavaScript, CSS/SCSS, Webpack, AWS S3 Bucket, Bootstrap, Express, Axios, APIs
+                            Techologies used: React, JavaScript, CSS/SCSS, Heroku, Bootstrap, APIs
                         </Card.Footer>
                     </Card>
 

@@ -6,7 +6,7 @@ import {HobbyCard} from '../components/HobbyCard';
 export function Hobbies() {
     const [projects, setProjects] = useState("");
 
-    useEffect(() => {
+    const fetchData = () => {
         fetch("https://api.ravelry.com/projects/jimetheslime/list.json", {
         "method": "GET",
         "headers": {
@@ -20,12 +20,15 @@ export function Hobbies() {
             console.log("response", response)
             setProjects(response.projects);
         })
+    }
 
+    useEffect(() => {
+        fetchData();
     },[]);
 
     let projectElements = <p>Loading...</p>;
 
-    if (projects !== undefined) {
+    if (projects !== "") {
         console.log("projects: ", projects);
         for (let i = 0; i<= projects.length; i++) {
             projectElements = projects.map((item) => 

@@ -1,23 +1,26 @@
 import { useState } from 'react';
 import {Container, CardColumns} from 'react-bootstrap';
 import {useEffect} from 'react';
-import Axios from 'axios';
 import {HobbyCard} from '../components/HobbyCard';
 
 export function Hobbies() {
     const [projects, setProjects] = useState("");
 
     useEffect(() => {
-        Axios({
-            method: "GET",
-            url: "/getHobbies",
-            headers: {
-                "Content-Type": "application/json"
-              }
-            }).then(res => {
-                console.log("data ", res.data.projects);
-                setProjects(res.data.projects);
-            });
+        fetch("https://api.ravelry.com/projects/jimetheslime/list.json", {
+        "method": "GET",
+        "headers": {
+            "Authorization": `Basic ${process.env.REACT_APP_RAVELRY_KEY}`,
+            "content-type": "application/json",
+            "accept": "application/json"
+        }
+        })
+        .then (response => response.json())
+        .then (response => {
+            console.log("response", response)
+            setProjects(response.projects);
+        })
+
     },[]);
 
     let projectElements = <p>Loading...</p>;

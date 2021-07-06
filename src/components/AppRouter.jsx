@@ -9,9 +9,7 @@ export function AppRouter() {
     return (
         <BrowserRouter>
           <Switch>
-          <Route path="/">
-              <Home/>
-            </Route>
+          
             <Route path="/home">
               <Home/>
             </Route>
@@ -26,6 +24,9 @@ export function AppRouter() {
             </Route>
             <Route path="/work">
               <WorkExp/>
+            </Route>
+            <Route path="/">
+              <Home/>
             </Route>
           </Switch>
         </BrowserRouter>

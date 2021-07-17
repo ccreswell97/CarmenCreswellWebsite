@@ -9,7 +9,7 @@ export function Home() {
                     <Col m={6}>
                         <h1>Hi! I'm Carmen</h1>
                         <p className="pb-4">
-                            I'm an experienced software engineer with degrees in Computer Science, Cybersecurity, and Web Design. I have experience working with both front and backend systems, architeching apps from the ground up, and working on a distributed team with members in many different times zones. I made this website from scratch so I can have examples of my work and have an easy place to link my projects. It also serves as an easy-to-read resume.
+                            I'm an experienced software engineer with a Bachelor's degree in Computer Science, with minors in Cybersecurity and Web Design. I have experience working with both front and backend systems, architeching apps from the ground up, and working on a distributed team with members in many different times zones. I made this website from scratch so I can have examples of my work and have an easy place to link my projects. It also serves as an easy-to-read resume.
                         </p>
                         <div className="pb-5">
                         <Card bg={'secondary'} className="shadow">
@@ -27,7 +27,7 @@ export function Home() {
                                         <li>Webpack</li>    
                                         <li>Yarn</li>
                                         <li>Npm</li>
-                                        <li>HTML/CSS/SCSS/SASS</li>
+                                        <li>CSS/SCSS</li>
                                         <li>Groovy</li>
                                         <li>Heroku</li>
                                         <li>Bootstrap</li>

@@ -35,7 +35,6 @@ export function Home() {
                                 </Col>
                                 <Col sm={6}>
                                     <ul className="list-unstyled">
-                                        <li>Groovy</li>
                                         <li>S3 Buckets</li>
                                         <li>API Gateway</li>
                                         <li>AWS Lambda</li>

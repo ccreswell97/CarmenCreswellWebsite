@@ -24,6 +24,21 @@ export function Projects() {
 
                     <Card className="bg-white shadow" border="primary">
                         <Card.Body className="pl-4">
+                            <Card.Title className="">Springfield WIT Website</Card.Title>
+                            <Card.Text>
+                                I am a board member for the Springfield, Missouri Women in Tech user group, and I am currently the only developer on the board. I created this website to strengthen the online presence of the group. The next step is to get MailChimp set up so we can gather email addresses and our stretch goal is to provide an online option to buy t-shirts and other WIT merch.
+                            </Card.Text> 
+                            <Card.Link target="_blank" rel="noreferrer" href="https://carmencreswell.com">
+                                www.sgfwit.com
+                            </Card.Link>
+                        </Card.Body>
+                        <Card.Footer>
+                            Techologies used: HTML, CSS/SCSS, Netlify, Bootstrap, MailChimp
+                        </Card.Footer>
+                    </Card>
+
+                    <Card className="bg-white shadow" border="primary">
+                        <Card.Body className="pl-4">
                             <Card.Title className="">Ozark Energy Services Website</Card.Title>
                             <Card.Text>
                                 Next up on my personal project list! OES is my dad's electrical and solar company that he's had ever since I can remember. He mentioned that I should make them a website when I had just started at university, but I didn't have time. The website he has now is fine, but I'd like to build him a new, updated version.

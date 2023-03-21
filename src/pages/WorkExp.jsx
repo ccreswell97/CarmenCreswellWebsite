@@ -5,24 +5,44 @@ export function WorkExp() {
         <Container className="pt-4 pl-0">
             <Container className="pl-3">
             <h1>Work Experience</h1>
-                <Card className="bg-white shadow">
+            <Card className="bg-white shadow">
                     <Card.Body className="pl-4">
                         <Card.Title className="">Software Engineer</Card.Title>
-                        <Card.Subtitle className="">Adaptavist | July 2020</Card.Subtitle>
+                        <Card.Subtitle className="">GetBridge | April 2022</Card.Subtitle>
                         <div>
                             <ul className="card-text text-black text-left pt-2">
-                                <li>Collaborated with a Senior Software Engineer to build a new app from the ground up, Learn for Jira</li>
-                                <li>Single-handely conducted accessibility reviews of our app and implemented accessiblity standards in Learn for Jira</li>
-                                <li>Worked closely with team members to design and develop robust solutions to meet client requirements for functionality, scalability and performance</li>
-                                <li>Adjusted design parameters to boost performance and incorporate new features</li>
-                                <li>Interfaced with cross-functional team of designers, developers, and technical support professionals to determine comprehensive list of requirement specifications for new applications</li>
+                                <li>Maintained and updated existing system using AngularJS</li>
+                                <li>Worked on improving the accessibility and readability of the app in RTL languages</li>
+                                <li>Collaborated with team members on other teams to create measurable progress tracking through embedded systems</li>
+                                <li>Improved SCORM compliant exports for learning content</li>
+                                <li>Worked on improved video controls for touch screen devices</li>
                             </ul>
                         </div> 
                     </Card.Body>
                     <Card.Footer>
-                        Techologies used: React, TypeScript, JavaScript, CSS, Java, Arquillian, JUnit, Lucene, Docker, Webpack, Maven, Lombok
+                        Techologies used: React, JavaScript, SCSS, JQuery, AngularJS, Webpack, Docker
                     </Card.Footer>
                 </Card>
+                <CardDeck className='pt-4'>
+                    <Card className="bg-white shadow">
+                        <Card.Body className="pl-4">
+                            <Card.Title className="">Software Engineer</Card.Title>
+                            <Card.Subtitle className="">Adaptavist | July 2020 - March 2022</Card.Subtitle>
+                            <div>
+                                <ul className="card-text text-black text-left pt-2">
+                                    <li>Collaborated with a Senior Software Engineer to build a new app from the ground up, Learn for Jira</li>
+                                    <li>Single-handely conducted accessibility reviews of our app and implemented accessiblity standards in Learn for Jira</li>
+                                    <li>Worked closely with team members to design and develop robust solutions to meet client requirements for functionality, scalability and performance</li>
+                                    <li>Adjusted design parameters to boost performance and incorporate new features</li>
+                                    <li>Interfaced with cross-functional team of designers, developers, and technical support professionals to determine comprehensive list of requirement specifications for new applications</li>
+                                </ul>
+                            </div> 
+                        </Card.Body>
+                        <Card.Footer>
+                            Techologies used: React, TypeScript, JavaScript, CSS, Java, Arquillian, JUnit, Lucene, Docker, Webpack, Maven, Lombok
+                        </Card.Footer>
+                    </Card>
+                </CardDeck>
 
                 <CardDeck className="pt-4">
                         <Card className="bg-white shadow">

@@ -1,6 +1,7 @@
 import {Card} from 'react-bootstrap';
 
 export function HobbyCard({project}) {
+    console.log(`project: ${project.name}: ${JSON.stringify(project.first_photo)}`);
     return (    
         <Card style={{ width: '18rem' }}>
             <Card.Img variant="top" src={project.first_photo.small_url} />

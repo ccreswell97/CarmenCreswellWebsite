@@ -29,7 +29,6 @@ export function Hobbies() {
     let projectElements = <p>Loading...</p>;
 
     if (projects !== "") {
-        console.log("projects: ", projects);
         for (let i = 0; i<= projects.length; i++) {
             projectElements = projects.map((item) => 
                 <HobbyCard key={item.permalink} project={item}/>
@@ -42,7 +41,7 @@ export function Hobbies() {
         <Container className="pt-4 pl-0">
             <Container className="pl-3">
                 <h1>Hobbies</h1>
-                <p>My favorite hobbies are fibercraft. That includes knitting, crocheting, cross stitch, embroidery, and anything else I can find. Here are my knitting and crochet projects (pulled in through the Ravelry API).</p>
+                <p>My favorite hobbies are knitting and crochet, and I wanted to find a way to incorporate them into my programming. So, I uploaded all my projects to a site called Ravelry and used their API to get all my projects dynamically.</p>
                 <CardColumns>
                 {projectElements}
                 </CardColumns>

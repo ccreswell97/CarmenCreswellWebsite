@@ -1,29 +1,34 @@
-import {CardDeck, Container, Card} from 'react-bootstrap';
+import {Row, Container, Card, Col} from 'react-bootstrap';
 
 export function WorkExp() {
     return (
         <Container className="pt-4 pl-0">
             <Container className="pl-3">
-            <h1>Work Experience</h1>
-            <Card className="bg-white shadow">
-                    <Card.Body className="pl-4">
-                        <Card.Title className="">Software Engineer</Card.Title>
-                        <Card.Subtitle className="">GetBridge | April 2022</Card.Subtitle>
-                        <div>
-                            <ul className="card-text text-black text-left pt-2">
-                                <li>Maintained and updated existing system using AngularJS</li>
-                                <li>Worked on improving the accessibility and readability of the app in RTL languages</li>
-                                <li>Collaborated with team members on other teams to create measurable progress tracking through embedded systems</li>
-                                <li>Improved SCORM compliant exports for learning content</li>
-                                <li>Worked on improved video controls for touch screen devices</li>
-                            </ul>
-                        </div> 
-                    </Card.Body>
-                    <Card.Footer>
-                        Techologies used: React, JavaScript, SCSS, JQuery, AngularJS, Webpack, Docker
-                    </Card.Footer>
-                </Card>
-                <CardDeck className='pt-4'>
+            <h1 className="mb-4">Professional Experience</h1>
+            <Row>
+                <Col>
+                    <Card className="bg-white shadow">
+                        <Card.Body className="pl-4">
+                            <Card.Title className="">Software Engineer</Card.Title>
+                            <Card.Subtitle className="">GetBridge | April 2022 - Present</Card.Subtitle>
+                            <div>
+                                <ul className="card-text text-black text-left pt-2">
+                                    <li>Maintained and updated existing system using AngularJS</li>
+                                    <li>Lead several accessibility initiatives, including support for screen readers and RTL languages</li>
+                                    <li>Collaborated with team members on other teams to create measurable progress tracking through embedded systems</li>
+                                    <li>Improved SCORM compliant exports for learning content</li>
+                                    <li>Worked on improved video controls for touch screen devices</li>
+                                </ul>
+                            </div> 
+                        </Card.Body>
+                        <Card.Footer>
+                            Techologies used: React, JavaScript, CSS/SCSS, JQuery, AngularJS, Webpack, Docker
+                        </Card.Footer>
+                    </Card>
+                </Col>
+            </Row>
+            <Row className='pt-4'>
+                <Col>
                     <Card className="bg-white shadow">
                         <Card.Body className="pl-4">
                             <Card.Title className="">Software Engineer</Card.Title>
@@ -42,28 +47,32 @@ export function WorkExp() {
                             Techologies used: React, TypeScript, JavaScript, CSS, Java, Arquillian, JUnit, Lucene, Docker, Webpack, Maven, Lombok
                         </Card.Footer>
                     </Card>
-                </CardDeck>
+                </Col>
+            </Row>
 
-                <CardDeck className="pt-4">
-                        <Card className="bg-white shadow">
-                            <Card.Body className="pl-4">
-                                <Card.Title className="text-black">Associate Software Engineer</Card.Title>
-                                <Card.Subtitle className="text-black">Adaptavist | May 2019 - June 2020</Card.Subtitle> 
-                                <div>   
-                                    <ul className="card-text text-black text-left pt-2">
-                                        <li>Modified existing software to fix bugs and improve performance</li>
-                                        <li>Worked on 2 different teams for different products, ScriptRunner for Confluence and Learn for Jira</li>
-                                        <li>Identified problems from testing and user feedback, submitted the problems for review, and fixed them</li>
-                                        <li>Coordinated with Software Engineers and Senior Software Engineers to evaluate and improve software interfaces</li>
-                                        <li>Contributed ideas and suggestions in team meetings and delivered updates on deadlines, designs and enhancements</li>
-                                    </ul>
-                                </div>
-                            </Card.Body>
-                            <Card.Footer>
-                                Technologies used: Groovy, Java, React, TypeScript, JavaScript, CSS, Arquillian, JUnit, Gradle
-                            </Card.Footer>
-                        </Card>
+            <Row className="pt-4">
+                <Col>
+                    <Card className="bg-white shadow">
+                        <Card.Body className="pl-4">
+                            <Card.Title className="text-black">Associate Software Engineer</Card.Title>
+                            <Card.Subtitle className="text-black">Adaptavist | May 2019 - June 2020</Card.Subtitle> 
+                            <div>   
+                                <ul className="card-text text-black text-left pt-2">
+                                    <li>Modified existing software to fix bugs and improve performance</li>
+                                    <li>Worked on 2 different teams for different products, ScriptRunner for Confluence and Learn for Jira</li>
+                                    <li>Identified problems from testing and user feedback, submitted the problems for review, and fixed them</li>
+                                    <li>Coordinated with Software Engineers and Senior Software Engineers to evaluate and improve software interfaces</li>
+                                    <li>Contributed ideas and suggestions in team meetings and delivered updates on deadlines, designs and enhancements</li>
+                                </ul>
+                            </div>
+                        </Card.Body>
+                        <Card.Footer>
+                            Technologies used: Groovy, Java, React, TypeScript, JavaScript, CSS, Arquillian, JUnit, Gradle
+                        </Card.Footer>
+                    </Card>
+                </Col>
 
+                <Col>
                     <Card className="bg-white shadow">
                         <Card.Body className="pl-4">
                             <Card.Title className="text-black">Intern Software Engineer</Card.Title>
@@ -81,8 +90,9 @@ export function WorkExp() {
                             Technologies used: Groovy, Java, React, Gradle, Jira Service Desk
                         </Card.Footer>
                     </Card>
-                </CardDeck>
-            </Container>
+                </Col>
+            </Row>
         </Container>
+    </Container>
     );
 }

@@ -9,7 +9,6 @@ export function AppRouter() {
     return (
         <BrowserRouter>
           <Switch>
-          
             <Route path="/home">
               <Home/>
             </Route>

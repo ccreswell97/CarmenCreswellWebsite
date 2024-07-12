@@ -1,9 +1,8 @@
 import {Card} from 'react-bootstrap';
 
 export function HobbyCard({project}) {
-    console.log(`project: ${project.name}: ${JSON.stringify(project.first_photo)}`);
     return (    
-        <Card style={{ width: '18rem' }}>
+        <Card style={{ width: '18rem' }} className="mb-4">
             <Card.Img variant="top" src={project.first_photo.small_url} />
             <Card.Body>
                 <Card.Title>{project.name}</Card.Title>

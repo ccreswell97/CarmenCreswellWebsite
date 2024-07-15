@@ -1,9 +1,9 @@
-import './stylesheets/App.scss';
-
 import {AppFooter} from './components/AppFooter';
 import {AppNav} from './components/AppNav';
 import {AppRouter} from './components/AppRouter';
 import {Container} from 'react-bootstrap';
+
+import './stylesheets/custom.scss';
 
 function App() {
   return (

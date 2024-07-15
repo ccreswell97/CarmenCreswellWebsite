@@ -1,8 +1,10 @@
 import {Container, Card} from 'react-bootstrap';
 
+import '../stylesheets/education.scss';
+
 export function Education() {
     return (
-        <Container fluid className="pt-4 pl-0">
+        <Container fluid className="pt-4 pl-0 education">
             <Container className="container pl-3">
                 <h1>Education</h1>
                 <div className="pt-4">

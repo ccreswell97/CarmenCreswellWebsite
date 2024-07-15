@@ -1,5 +1,7 @@
 import {Navbar, Nav} from 'react-bootstrap';
 
+import '../stylesheets/nav.scss';
+
 export function AppNav() {
     return(
         <div>
@@ -16,6 +18,6 @@ export function AppNav() {
             </Nav>
             </Navbar.Collapse>
         </Navbar>
-      </div>
+    </div>
     )
 }

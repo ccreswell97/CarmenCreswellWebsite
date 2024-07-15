@@ -17,7 +17,6 @@ export function Hobbies() {
         })
         .then (response => response.json())
         .then (response => {
-            console.log("response", response)
             setProjects(response.projects);
         })
     }
@@ -30,13 +29,12 @@ export function Hobbies() {
 
     if (projects) {
         projectElements = projects.map((item) => 
-            <Col>
-                <HobbyCard key={item.permalink} project={item}/>
+            <Col key={item.permalink}>
+                <HobbyCard project={item}/>
             </Col>
         )
     };
 
-    console.log("projects", projects);
     return (
         <Container className="pt-4 pl-0">
             <Container className="pl-3">

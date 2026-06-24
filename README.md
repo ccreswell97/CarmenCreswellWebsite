@@ -2,14 +2,15 @@
 
 This holds the code for my personal website, [carmencreswell.com](https://carmencreswell.com/).
 
-It uses the following languages, frameworks, and technologies: 
-* React
-* JavaScript
-* CSS & SCSS
-* Node
-* AWS S3 Bucket
-* Axios
-* Express
+It uses the following languages, frameworks, and technologies:
+
+- React
+- JavaScript
+- CSS & SCSS
+- Node
+- AWS S3 Bucket
+- Axios
+- Express
 
 ## Available Scripts
 

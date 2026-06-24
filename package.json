@@ -22,7 +22,8 @@
   "scripts": {
     "start": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "heroku-postbuild": "npm install --include=dev && npm run build"
   },
   "eslintConfig": {
     "extends": [

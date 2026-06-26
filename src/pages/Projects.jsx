@@ -1,13 +1,13 @@
 import { Container, Card, Row, Col } from 'react-bootstrap';
 
-export function Projects() {
+ const Projects = () => {
   return (
     <Container className="pt-4 ps-0">
       <h1 className="mb-4">Projects</h1>
       <Row>
         <Col>
           <Card className="bg-white shadow">
-            <Card.Body className="pl-4">
+            <Card.Body className="ps-4">
               <Card.Title className="">Personal Resume Website</Card.Title>
               <Card.Text>
                 Originally launched in 2021 as my first personal project, this website has served as a long-term development sandbox for exploring modern web technologies. Over its lifespan, I have continuously maintained, refactored, and migrated its architecture to stay aligned with industry standards—most recently transitioning the core engine from a legacy Create React App setup to a high-performance Vite build system.
@@ -50,3 +50,5 @@ export function Projects() {
     </Container>
   );
 }
+
+export default Projects;

@@ -21,6 +21,7 @@
     "web-vitals": "^4.2.1"
   },
   "scripts": {
+    "dev": "vite",
     "start": "serve -s dist -l $PORT",
     "build": "vite build",
     "heroku-postbuild": "npm run build",

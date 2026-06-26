@@ -1,9 +1,9 @@
-import { Home } from '../pages/Home';
+import Home from '../pages/Home';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
-import { Education } from '../pages/Education';
-import { Projects } from '../pages/Projects';
-import { WorkExp } from '../pages/WorkExp';
-import { Hobbies } from '../pages/Hobbies';
+import Education from '../pages/Education';
+import Projects from '../pages/Projects';
+import WorkExp from '../pages/WorkExp';
+import Hobbies from '../pages/Hobbies';
 
 export function AppRouter() {
   return (

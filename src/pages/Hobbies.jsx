@@ -3,7 +3,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 import { useEffect } from 'react';
 import { HobbyCard } from '../components/HobbyCard';
 
-export function Hobbies() {
+const Hobbies = () => {
   const [projects, setProjects] = useState('');
 
   const fetchData = () => {
@@ -27,8 +27,6 @@ export function Hobbies() {
 
   let projectElements = <p>Loading...</p>;
 
-  console.log(projects);
-
   if (projects) {
     projectElements = projects.map((item) => (
       <Col key={item.permalink}>
@@ -38,14 +36,16 @@ export function Hobbies() {
   }
 
   return (
-    <Container className="pt-4 ps-0">
+    <Container className="pt-4">
       <h1>Hobbies</h1>
       <p className="mb-4">
         To merge my love for fiber arts with programming, I integrated the Ravelry API into this page. By pulling data dynamically, my portfolio automatically updates with my latest knitting and crochet projects the moment they are uploaded to my profile.
       </p>
-      <Row xs={1} md={2} lg={3}>
+      <Row xs={1} md={2} lg={3} xl={4}>
         {projectElements}
       </Row>
     </Container>
   );
 }
+
+export default Hobbies;
